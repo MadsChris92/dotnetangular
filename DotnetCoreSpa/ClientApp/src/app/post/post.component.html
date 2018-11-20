@@ -1,0 +1,10 @@
+
+<form #f="ngForm" (ngSubmit)="onSubmit(f)" novalidate>
+
+  <input name="title" class="form-control" ngModel required #first="ngModel">
+  <textarea name="body" class="form-control mt-2" ngModel></textarea>
+
+  <button class="btn btn-lg btn-primary mt-2">Submit</button>
+
+
+</form>
